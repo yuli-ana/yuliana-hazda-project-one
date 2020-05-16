@@ -13,15 +13,19 @@
 
 <body>
     <!-- header - section -->
-    <header>
+    <header id="home">
+        <div>
+            <label for="toggle"></label>
+            <input type="checkbox" name="toggle" id="toggle">
+        </div>
         <div class="section-header">
             <div class="wrapper">
                 <nav class="header-nav">
                     <ul class="header-nav-list negative-margin">
                         <li class="header-list-item"><a href="">home</a></li>
-                        <li class="header-list-item"><a href="">about</a></li>
-                        <li class="header-list-item"><a href="">blog</a></li>
-                        <li class="header-list-item"><a href="">contact</a></li>
+                        <li class="header-list-item"><a href="#about">about</a></li>
+                        <li class="header-list-item"><a href="#blog">blog</a></li>
+                        <li class="header-list-item"><a href="#contact">contact</a></li>
                     </ul>
                 </nav>
                 <div class="header-intro">
@@ -42,7 +46,7 @@
     <!-- main - section-->
     <main>
         <!-- section - about -->
-        <section>
+        <section id="about">
             <div class="section-about">
                 <div class="wrapper">
                     <div class="negative-margin about clearfix">
@@ -77,7 +81,7 @@
         </section>
 
         <!-- section - gallery -->
-        <section>
+        <section id="">
             <div class="section-gallery">
                 <div class="wrapper">
                     <h3>Latest Collection</h3>
@@ -121,7 +125,7 @@
         </section>
 
         <!-- section - catalogue-->
-        <section>
+        <section id="blog">
             <div class="section-catalogue">
                 <div class="catalogue-1 clearfix">
                     <div class="row-right col-50">
@@ -162,7 +166,7 @@
     </main>
 
     <!-- footer-section -->
-    <footer>
+    <footer id="contact">
         <div class="section-footer">
             <div class="wrapper">
                 <div class="negative-margin clearfix">
@@ -176,9 +180,9 @@
                     </nav>
                     <nav class="header-nav  left row col-25 mg">
                         <ul class="header-nav-list">
-                            <li class="header-list-item"><a href="">home</a></li>
-                            <li class="header-list-item"><a href="">about</a></li>
-                            <li class="header-list-item"><a href="">blog</a></li>
+                            <li class="header-list-item"><a href="#home">home</a></li>
+                            <li class="header-list-item"><a href="#about">about</a></li>
+                            <li class="header-list-item"><a href="#blog">blog</a></li>
                             <li class="header-list-item"><a href="">contact</a></li>
                         </ul>
                     </nav>
