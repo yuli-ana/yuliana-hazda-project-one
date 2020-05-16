@@ -459,19 +459,24 @@ h1 span {
   display: none;
   position: fixed;
   top: 20px;
-  right: -20%;
+  left: -20%;
   width: 20%;
   background-color: var(--secondary-light);
   text-align: center;
   z-index: 1;
 }
 
+.sliding-menu,
+.sliding-menu li {
+  transition: all 300ms ease;
+}
+
 label[for="toggle"] {
   position: fixed;
   top: 20px;
-  left: 23px;
-  color: var(--secondary-light);
-  font-size: 3rem;
+  right: 23px;
+  color: var(--primary-light);
+  font-size: 4rem;
   z-index: 1;
 }
 
@@ -492,7 +497,7 @@ label[for="toggle"] {
 }
 
 input[type="checkbox"]:checked + .sliding-menu {
-  right: 0;
+  left: 0;
 }
 
 /* section-about */
@@ -562,7 +567,7 @@ input[type="checkbox"]:checked + .sliding-menu {
 
 .catalogue-1-event p,
 .catalogue-2-event p {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .rotate {
@@ -588,8 +593,6 @@ input[type="checkbox"]:checked + .sliding-menu {
 
 .footer-nav.right {
   text-align: right;
-  /* font-size: 1.7rem;*/
-  /* line-height: 20px;  */
 }
 
 .footer-subscription {
@@ -601,9 +604,6 @@ input[type="checkbox"]:checked + .sliding-menu {
 .footer-subscription p {
   margin-bottom: 20px;
 }
-
-/* form {
-  font-size: 0; /* check it out later removes white space*/
 
 .btn-subscribe {
   background: #000;
@@ -624,7 +624,6 @@ form input[type="email"] {
   text-align: center;
   font-weight: normal;
   padding: 10px;
-  /* font-size: 1.6rem; */
 }
 
 /* Medium desktops */
@@ -677,7 +676,7 @@ form input[type="email"] {
   }
 
   .footer-subscription {
-    padding: 80px 0;
+    padding: 60px 0;
   }
 
   .section-footer h4 {
@@ -687,7 +686,6 @@ form input[type="email"] {
   form input[type="email"] {
     display: block;
     text-align: center;
-    /* margin: 0 auto 10px; */
     padding: 15px;
   }
 
@@ -699,6 +697,10 @@ form input[type="email"] {
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
+  h3,
+  h4 {
+    font-size: 2.4rem;
+  }
   .wrapper {
     width: 90%;
   }
@@ -779,8 +781,10 @@ form input[type="email"] {
     text-align: center;
   }
 
-  .catalogue-1-event h3 {
+  .catalogue-1-event h3,
+  .catalogue-2-event h3 {
     line-height: 30px;
+    font-size: 2.3rem;
   }
 
   .catalogue-1-event p,
@@ -816,8 +820,8 @@ form input[type="email"] {
   }
 
   .sliding-menu {
-    right: -30%;
-    width: 30%;
+    left: -25%;
+    width: 25%;
   }
 
   .gallery-list-item {
@@ -827,7 +831,6 @@ form input[type="email"] {
   }
 
   .cooperation-list-item {
-    /* float: none; */
     width: 100%;
     margin: 0;
   }
@@ -877,10 +880,6 @@ form input[type="email"] {
   form input[type="email"],
   .btn-subscribe {
     width: 100%;
-  }
-
-  .btn-subscribe {
-    margin-top: 10px;
   }
 
   .footer-subscription {
