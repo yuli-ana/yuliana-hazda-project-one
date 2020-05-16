@@ -540,7 +540,8 @@ h1 span {
 
 .footer-nav.right {
   text-align: right;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  line-height: 20px;
 }
 
 .footer-subscription {
@@ -568,11 +569,11 @@ form input[type="email"] {
   border: none;
   padding: 10px 25px;
   width: 70%;
+  margin: 0 auto 10px;
 }
 
 .btn-subscribe,
 form input[type="email"] {
-  vertical-align: middle;
   font-size: 2rem;
 }
 
@@ -776,7 +777,7 @@ form input[type="email"] {
   }
 
   .btn-read-more {
-    padding: 10px 20px;
+    padding: 5px 20px;
   }
 
   .section-footer .header-nav {
@@ -958,7 +959,11 @@ form input[type="email"] {
   }
 
   .section-footer {
-    padding: 60px 0;
+    padding: 40px 0;
+  }
+
+  .section-footer h4 {
+    margin: 0;
   }
 
   .footer-subscription.col-50 {
@@ -969,10 +974,18 @@ form input[type="email"] {
     padding: 50px 0;
   }
 
+  .footer-subscription p {
+    padding: 50px 0;
+  }
+
   h3,
   .section-about-right h3,
   .section-gallery h3,
   .section-footer h4 {
     font-size: 2.5rem;
+  }
+
+  .footer-nav.right h4 {
+    margin-bottom: 10px;
   }
 }
