@@ -651,7 +651,7 @@ form input[type="email"] {
   form input[type="email"] {
     display: block;
     text-align: center;
-    margin: 0 auto 10px;
+    /* margin: 0 auto 10px; */
     padding: 15px;
   }
 
@@ -875,12 +875,27 @@ form input[type="email"] {
   .btn-read-more {
     font-size: 2.6rem;
   }
+
+  form input[type="email"],
+  .btn-subscribe {
+    width: 100%;
+  }
+
+  .btn-subscribe {
+    margin-top: 10px;
+  }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  h1 {
+    font-size: 6rem;
+    line-height: 55px;
+  }
+
   .section-header {
     background-position: 60% 100%;
+    min-height: 70vh;
   }
 
   .cooperation-list {
@@ -905,7 +920,8 @@ form input[type="email"] {
   .col-50,
   .col-65,
   .footer-subscription.col-50,
-  .footer-nav.col-25 {
+  .footer-nav.col-25,
+  .footer-subscription {
     width: 100%;
     margin: 0;
   }
@@ -924,9 +940,21 @@ form input[type="email"] {
     margin: 0 5px;
   }
 
+  .catalogue-1,
+  .catalogue-2 {
+    text-align: center;
+  }
+
   .catalogue-1-event h3,
   .catalogue-2-event h3 {
     line-height: 38px;
+    font-size: 2.4rem;
+  }
+
+  .catalogue-1-event p,
+  .catalogue-2-event p {
+    line-height: 26px;
+    text-align: left;
   }
 
   .section-footer {
@@ -937,11 +965,14 @@ form input[type="email"] {
     margin: 50px 0;
   }
 
-  form input[type="email"] {
-    width: 100%;
+  .footer-subscription {
+    padding: 50px 0;
   }
 
-  .btn-subscribe {
-    width: 98%;
+  h3,
+  .section-about-right h3,
+  .section-gallery h3,
+  .section-footer h4 {
+    font-size: 2.5rem;
   }
 }
