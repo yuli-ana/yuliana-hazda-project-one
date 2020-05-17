@@ -566,7 +566,7 @@ input[type="checkbox"]:checked + .sliding-menu {
 .catalogue-1-event h3,
 .catalogue-2-event h3 {
   margin-bottom: 20px;
-  line-height: 20px;
+  line-height: 45px;
 }
 
 .catalogue-1-event p,
@@ -613,7 +613,7 @@ input[type="checkbox"]:checked + .sliding-menu {
   background: #000;
   border: none;
   color: var(--primary-light);
-  padding: 12px 30px;
+  padding: 15px 30px;
 }
 
 input[type="email"] {
@@ -902,7 +902,7 @@ input[type="email"] {
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 4.8rem;
     line-height: 60px;
   }
 
