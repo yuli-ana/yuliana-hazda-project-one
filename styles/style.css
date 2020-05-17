@@ -271,7 +271,6 @@ p {
 }
 
 h1,
-h2,
 h3,
 h4,
 p,
@@ -303,7 +302,7 @@ img {
 }
 
 .header-list-item a,
-.section-header h2 {
+h1 .subtitle {
   color: var(--secondary-light);
 }
 
@@ -352,6 +351,10 @@ h4 {
 .section-cooperation,
 .section-footer {
   padding: 100px 0;
+}
+
+address {
+  font-style: normal;
 }
 
 /* layout-styles */
@@ -432,10 +435,12 @@ h1 span {
   display: block;
 }
 
-.header-intro h2 {
+h1 .subtitle {
   font-size: 4.5rem;
   line-height: 46px;
   font-weight: 300;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
 }
 
 .header-social-menu {
@@ -613,13 +618,13 @@ input[type="checkbox"]:checked + .sliding-menu {
   background: #000;
   border: none;
   color: var(--primary-light);
-  padding: 15px 30px;
+  padding: 12px 30px;
 }
 
 input[type="email"] {
   width: 70%;
   border: none;
-  padding: 15px;
+  padding: 12px 15px;
   margin: 10px auto;
 }
 
@@ -734,6 +739,10 @@ input[type="email"] {
     font-size: 1.6rem;
   }
 
+  h1 {
+    font-size: 11rem;
+  }
+
   h3,
   h4 {
     font-size: 2.4rem;
@@ -752,10 +761,6 @@ input[type="email"] {
   .header-nav,
   .footer-nav.left {
     display: none;
-  }
-
-  h1 {
-    font-size: 11rem;
   }
 
   .section-about {
@@ -813,16 +818,16 @@ input[type="email"] {
     line-height: 90px;
   }
 
+  h1 .subtitle {
+    font-size: 3.4rem;
+  }
+
   p {
     font-size: 1.6rem;
   }
 
   .header-intro {
     padding: 125px 0 0;
-  }
-
-  .header-intro h2 {
-    font-size: 2.8rem;
   }
 
   .sliding-menu {
