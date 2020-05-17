@@ -521,6 +521,10 @@ input[type="checkbox"]:checked + .sliding-menu {
   text-align: center;
 }
 
+.cooperation-list-item {
+  width: calc(100% / 3);
+}
+
 .cooperation-list-item i {
   display: block;
   color: var(--secondary-light);
@@ -562,7 +566,7 @@ input[type="checkbox"]:checked + .sliding-menu {
 .catalogue-1-event h3,
 .catalogue-2-event h3 {
   margin-bottom: 20px;
-  line-height: 45px;
+  line-height: 20px;
 }
 
 .catalogue-1-event p,
@@ -609,14 +613,14 @@ input[type="checkbox"]:checked + .sliding-menu {
   background: #000;
   border: none;
   color: var(--primary-light);
-  padding: 10px 30px;
+  padding: 12px 30px;
 }
 
-form input[type="email"] {
+input[type="email"] {
   width: 70%;
   border: none;
-  padding: 10px 25px;
-  margin: 0 auto 10px;
+  padding: 15px;
+  margin: 10px auto;
 }
 
 .copyright {
@@ -676,17 +680,15 @@ form input[type="email"] {
   }
 
   .footer-subscription {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .section-footer h4 {
     margin-bottom: 30px;
   }
 
-  form input[type="email"] {
-    display: block;
+  input[type="email"] {
     text-align: center;
-    padding: 15px;
   }
 
   .btn-subscribe {
@@ -805,10 +807,14 @@ form input[type="email"] {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 730px) {
   h1 {
     font-size: 8rem;
     line-height: 90px;
+  }
+
+  p {
+    font-size: 1.6rem;
   }
 
   .header-intro {
@@ -877,11 +883,6 @@ form input[type="email"] {
     padding: 40px 0;
   }
 
-  form input[type="email"],
-  .btn-subscribe {
-    width: 100%;
-  }
-
   .footer-subscription {
     padding: 50px 0;
   }
@@ -910,7 +911,9 @@ form input[type="email"] {
     min-height: 70vh;
   }
 
-  .cooperation-list {
+  .cooperation-list,
+  input[type="email"],
+  .btn-subscribe {
     width: 100%;
   }
 
