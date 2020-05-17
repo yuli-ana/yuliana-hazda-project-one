@@ -399,7 +399,7 @@ h4 {
 /* header-section */
 .section-header {
   position: relative;
-  background-image: url("../images/header-2.jpg");
+  background-image: url("../images/image-1/header-2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -818,7 +818,7 @@ input[type="email"] {
   }
 
   .header-intro {
-    padding: 125px 0;
+    padding: 125px 0 0;
   }
 
   .header-intro h2 {
@@ -901,13 +901,21 @@ input[type="email"] {
     margin: 0;
   }
 
+  p {
+    font-size: 1.7rem;
+  }
+
   h1 {
     font-size: 4.8rem;
     line-height: 60px;
   }
 
+  .btn-read-more {
+    padding: 15px 30px;
+  }
+
   .section-header {
-    background-position: 60% 100%;
+    background-image: url("../images/image-1/header-1.jpg");
     min-height: 70vh;
   }
 
