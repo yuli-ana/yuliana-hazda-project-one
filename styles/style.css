@@ -966,4 +966,8 @@ input[type="email"] {
   .footer-nav.right h4 {
     margin-bottom: 10px;
   }
+
+  .copyright {
+    font-size: 1.4rem;
+  }
 }
