@@ -1,9 +1,8 @@
-Project 1 (1 page PSD conversion)
+# Project 1 (1 page PSD conversion)
 
-Live site: https://yuli-ana.github.io/yuliana-hazda-project-one/
+**Live site:** https://yuli-ana.github.io/yuliana-hazda-project-one/
 
-
-Project Requirements
+## Project Requirements
 
 Requirements:
 - Site is responsive and uses media queries
@@ -17,6 +16,6 @@ Requirements:
 - Project represents the provided design well
 - Files, folders, & naming conventions followed (kabob-case) (this includes your project repo)
 
-Best Practices Requirements
+## Best Practices Requirements
 
 - Extraneous code is removed
