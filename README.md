@@ -4,7 +4,6 @@
 
 ## Project Requirements
 
-Requirements:
 - Site is responsive and uses media queries
 - Wrapper used to constrain content on large displays
 - Semantic HTML elements are used properly
